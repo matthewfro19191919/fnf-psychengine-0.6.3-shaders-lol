@@ -1,10 +1,10 @@
 package flixel;
 
-import flash.Lib;
-import flash.display.DisplayObject;
-import flash.display.Stage;
-import flash.display.StageDisplayState;
-import flash.net.URLRequest;
+import openfl.Lib;
+import openfl.display.DisplayObject;
+import openfl.display.Stage;
+import openfl.display.StageDisplayState;
+import openfl.net.URLRequest;
 import flixel.effects.postprocess.PostProcess;
 import flixel.math.FlxMath;
 import flixel.math.FlxRandom;
@@ -216,7 +216,7 @@ class FlxG
 	public static var scaleMode(default, set):BaseScaleMode = new RatioScaleMode();
 
 	/**
-	 * Use this to toggle between fullscreen and normal mode. Works on CPP, Neko and Flash.
+	 * Use this to toggle between fullscreen and normal mode. Works on CPP, Neko and openfl.
 	 * You can easily toggle fullscreen with e.g.: `FlxG.fullscreen = !FlxG.fullscreen;`
 	 */
 	public static var fullscreen(get, set):Bool;
@@ -382,7 +382,7 @@ class FlxG
 		stage.resize(Width, Height);
 		#else
 		#if air
-		var window = flash.desktop.NativeApplication.nativeApplication.activeWindow;
+		var window = openfl.desktop.NativeApplication.nativeApplication.activeWindow;
 		window.width = Width;
 		window.height = Height;
 		#else
