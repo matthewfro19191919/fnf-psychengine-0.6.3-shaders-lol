@@ -21,6 +21,12 @@ haxelib set lime 8.1.2
 haxelib set openfl 9.3.3
 haxelib install hxCodec 2.5.1
 haxelib install hscript
+haxelib install actuate
+haxelib git faxe https://github.com/uhrobots/faxe
+haxelib git hscript-ex https://github.com/ianharrigan/hscript-ex
+haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
+haxelib git hxvm-luajit https://github.com/nebulazorua/hxvm-luajit
+haxelib git polymod https://github.com/larsiusprime/polymod.git
 haxelib git flxanimate https://github.com/Dot-Stuff/flxanimate 768740a56b26aa0c072720e0d1236b94afe68e3e
 haxelib git linc_luajit https://github.com/superpowers04/linc_luajit 1906c4a96f6bb6df66562b3f24c62f4c5bba14a7
 haxelib git funkin.vis https://github.com/FunkinCrew/funkVis 22b1ce089dd924f15cdc4632397ef3504d464e90
