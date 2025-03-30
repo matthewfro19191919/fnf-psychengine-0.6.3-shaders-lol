@@ -1,6 +1,6 @@
 package flixel.effects.particles;
 
-import flash.display.BlendMode;
+import openfl.display.BlendMode;
 import flixel.FlxG;
 import flixel.FlxObject;
 import flixel.FlxSprite;
@@ -40,7 +40,7 @@ class FlxTypedEmitter<T:FlxSprite & IFlxParticle> extends FlxTypedGroup<T>
 	 */
 	public var frequency:Float = 0.1;
 	/**
-	 * Sets particle's blend mode. `null` by default. Warning: Expensive on Flash.
+	 * Sets particle's blend mode. `null` by default. Warning: Expensive on openfl.
 	 */
 	public var blend:BlendMode;
 	/**
