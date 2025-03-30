@@ -3716,6 +3716,4 @@ class Stage extends DisplayObjectContainer #if lime implements IModule #end
 	@:noCompletion private var __primaryTouch:Touch;
         #end
 }
-#else
 typedef Stage = flash.display.Stage;
-#end
