@@ -1,7 +1,6 @@
 package;
 
 import openfl.display3D.Program3D;
-import flixel.system.FlxAssets.FlxShader as OriginalFlxShader;
 import flixel.graphics.tile.FlxGraphicsShader; 
 import openfl.display.BitmapData;
 import openfl.display.ShaderParameter;
@@ -11,7 +10,7 @@ import lime.utils.Float32Array;
 import openfl.display.GraphicsShader; 
 using StringTools;
 
-class FlxShader extends OriginalFlxShader  
+class FlxShader
 {  
 
 #if (mac||linux||windows)
