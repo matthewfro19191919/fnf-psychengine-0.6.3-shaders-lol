@@ -3717,3 +3717,4 @@ class Stage extends DisplayObjectContainer #if lime implements IModule #end
         #end
 }
 typedef Stage = flash.display.Stage;
+#end
