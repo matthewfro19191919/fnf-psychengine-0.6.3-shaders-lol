@@ -40,4 +40,4 @@ jobs:
         os: ${{ matrix.os }}
         buildArgs: ${{ matrix.buildArgs }}
         artifactName: ${{ matrix.artifactName }}
-        artifactPath: ${{ matrix.ar
+        artifactPath: ${{ matrix.artifactPath }}
