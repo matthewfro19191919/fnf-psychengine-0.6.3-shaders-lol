@@ -1,23 +1,23 @@
 package flixel.system;
 
-import flash.Lib;
-import flash.display.Bitmap;
-import flash.display.BitmapData;
-import flash.display.GradientType;
-import flash.display.GraphicsPathWinding;
-import flash.display.Shape;
-import flash.display.Sprite;
-import flash.display.StageAlign;
-import flash.display.StageScaleMode;
-import flash.events.Event;
-import flash.events.ProgressEvent;
-import flash.events.MouseEvent;
-import flash.geom.Matrix;
-import flash.geom.Rectangle;
-import flash.net.URLRequest;
-import flash.text.TextField;
-import flash.text.TextFormat;
-import flash.text.TextFormatAlign;
+import openfl.Lib;
+import openfl.display.Bitmap;
+import openfl.display.BitmapData;
+import openfl.display.GradientType;
+import openfl.display.GraphicsPathWinding;
+import openfl.display.Shape;
+import openfl.display.Sprite;
+import openfl.display.StageAlign;
+import openfl.display.StageScaleMode;
+import openfl.events.Event;
+import openfl.events.ProgressEvent;
+import openfl.events.MouseEvent;
+import openfl.geom.Matrix;
+import openfl.geom.Rectangle;
+import openfl.net.URLRequest;
+import openfl.text.TextField;
+import openfl.text.TextFormat;
+import openfl.text.TextFormatAlign;
 import flixel.util.FlxColor;
 import flixel.util.FlxStringUtil;
 import openfl.Vector;
@@ -210,7 +210,7 @@ class FlxBasePreloader extends DefaultPreloader
 	 * in the onLoad function; any such code executed before it is called will fail on the HTML5 target.
 	 *
 	 * @param	bitmapDataClass		A reference to the BitmapData child class that contains the embedded data which is to be used.
-	 * @param	onLoad				Executed once the bitmap data is finished loading in HTML5, and immediately in Flash. The new Bitmap instance is passed as an argument.
+	 * @param	onLoad				Executed once the bitmap data is finished loading in HTML5, and immediately in openfl. The new Bitmap instance is passed as an argument.
 	 * @return  The Bitmap instance that was created.
 	 */
 	function createBitmap(bitmapDataClass:Class<BitmapData>, onLoad:Bitmap->Void):Bitmap
@@ -234,7 +234,7 @@ class FlxBasePreloader extends DefaultPreloader
 	 * will fail on the HTML5 target.
 	 *
 	 * @param	bitmapDataClass		A reference to the BitmapData child class that contains the embedded data which is to be used.
-	 * @param	onLoad				Executed once the bitmap data is finished loading in HTML5, and immediately in Flash. The new BitmapData instance is passed as an argument.
+	 * @param	onLoad				Executed once the bitmap data is finished loading in HTML5, and immediately in openfl. The new BitmapData instance is passed as an argument.
 	 * @return  The BitmapData instance that was created.
 	 */
 	function loadBitmapData(bitmapDataClass:Class<BitmapData>, onLoad:BitmapData->Void):BitmapData

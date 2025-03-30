@@ -1,7 +1,7 @@
 package flixel.system.frontEnds;
 
 #if FLX_SOUND_SYSTEM
-import flash.media.Sound;
+import openfl.media.Sound;
 import flixel.FlxG;
 import flixel.group.FlxGroup.FlxTypedGroup;
 import flixel.system.FlxAssets.FlxSoundAsset;
