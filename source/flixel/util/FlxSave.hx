@@ -353,7 +353,7 @@ class FlxSave implements IFlxDestroyable
 }
 
 /**
- * Internal helper for overriding OpenFL save directories. Ignored on flash. If no data is found at
+ * Internal helper for overriding OpenFL save directories. Ignored on openfl. If no data is found at
  * the desired path, it will check the legacy path, but `flush` calls will save to the new path.
  * 
  * ## Paths
