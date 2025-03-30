@@ -18,7 +18,7 @@ public var glslVer:String = "120";
 #else
 public var glslVer:String = "100"; 
 #end  
-@:noCompletion override function __initGL():Void
+@:noCompletion function __initGL():Void
     {
         if (__glSourceDirty || __paramBool == null)
         {
