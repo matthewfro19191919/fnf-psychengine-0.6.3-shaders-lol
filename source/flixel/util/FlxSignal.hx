@@ -8,7 +8,7 @@ import flixel.util.FlxDestroyUtil.IFlxDestroyable;
 typedef FlxSignal = FlxTypedSignal<Void->Void>;
 
 @:multiType
-abstract FlxTypedSignal<T>(IFlxSignal<T>)
+class FlxTypedSignal<T>(IFlxSignal<T>)
 {
 	public var dispatch(get, never):T;
 
